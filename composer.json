@@ -1,9 +1,9 @@
 {
-    "name": "lexik/ws-colissimo",
+    "name": "NyKo24/ws-colissimo",
     "type": "library",
     "description": "A library for consuming the SOAP WSColiPosteLetterService",
     "keywords": ["colissimo", "webservice", "coliposteletterservice"],
-    "homepage": "https://github.com/lexikteam/ws-colissimo",
+    "homepage": "https://github.com/NyKo24/ws-colissimo",
     "license": "MIT",
     "authors": [
         {
@@ -11,13 +11,13 @@
             "email": "n.cabot@lexik.fr"
         },
         {
-            "name": "Dev Lexik",
-            "email": "dev@lexik.fr"
+            "name": "Nicolas Bordes",
+            "email": "nicolabsordes@me.com"
         }
     ],
     "require": {
-        "php": ">=5.3.3",
-        "symfony/validator": ">=2.1,<2.4"
+        "php": ">=5.5.9",
+        "symfony/validator": "~2.2|~3.0"
     },
     "autoload": {
         "psr-0": {

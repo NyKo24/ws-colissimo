@@ -420,8 +420,8 @@ class Parcel
             'callback' => array('\WSColissimo\WSColiPosteLetterService\Request\ValueObject\Choice\DeliveryMode', 'getChoices')
         )));
 
-        $metadata->addPropertyConstraint('returnReceipt', new Assert\False());
-        $metadata->addPropertyConstraint('recommendation', new Assert\False());
+        $metadata->addPropertyConstraint('returnReceipt', new Assert\IsFalse());
+        $metadata->addPropertyConstraint('recommendation', new Assert\IsFalse());
 
         $metadata->addPropertyConstraint('instructions', new Assert\Length(array('max' => 70)));
     }

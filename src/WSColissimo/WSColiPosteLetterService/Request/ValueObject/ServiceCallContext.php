@@ -469,7 +469,7 @@ class ServiceCallContext
         $metadata->addPropertyConstraint('serviceType', new Assert\NotBlank());
         $metadata->addPropertyConstraint('serviceType', new Assert\Regex(array('pattern' => '/^[a-zA-Z0-9]{1,20}$/')));
 
-        $metadata->addPropertyConstraint('crbt', new Assert\False());
+        $metadata->addPropertyConstraint('crbt', new Assert\IsFalse());
 
         $metadata->addPropertyConstraint('VATCode', new Assert\Type(array('type' => 'integer')));
         $metadata->addPropertyConstraint('VATCode', new Assert\Range(array('min' => 0, 'max' => 2)));
@@ -479,9 +479,9 @@ class ServiceCallContext
         $metadata->addPropertyConstraint('transportationAmount', new Assert\Type(array('type' => 'integer')));
         $metadata->addPropertyConstraint('totalAmount', new Assert\Type(array('type' => 'integer')));
 
-        $metadata->addPropertyConstraint('portPaye', new Assert\False());
-        $metadata->addPropertyConstraint('motiveBack', new Assert\Null());
-        $metadata->addPropertyConstraint('logocobrande', new Assert\Null());
+        $metadata->addPropertyConstraint('portPaye', new Assert\IsFalse());
+        $metadata->addPropertyConstraint('motiveBack', new Assert\IsNull());
+        $metadata->addPropertyConstraint('logocobrande', new Assert\IsNull());
 
         $metadata->addPropertyConstraint('commercialName', new Assert\NotBlank());
         $metadata->addPropertyConstraint('commercialName', new Assert\Type(array('type' => 'string')));
