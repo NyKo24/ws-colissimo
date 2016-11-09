@@ -1,7 +1,7 @@
 WSColiPosteLetterService Client Library
 =======================================
 
-![Project Status](http://stillmaintained.com/lexik/ws-colissimo.png)
+![Project Status](http://www.weled.fr/logo/logo-colissimo.svg)
 
 ## Introduction
 
