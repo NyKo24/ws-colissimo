@@ -3,6 +3,9 @@ WSColiPosteLetterService Client Library
 
 ![Logo](http://www.weled.fr/logo/logo-colissimo.svg)
 
+## Congrats
+This library is a fork of lexik/ws-colissimo. Thank's Nicolas Cabot
+
 ## Introduction
 
 This library provides a client for the SOAP 
@@ -21,14 +24,14 @@ Add the library to your `composer.json` :
 ```
 {
     "require": {
-        "lexik/ws-colissimo": "dev-master"
+        "NyKo24/ws-colissimo": "dev-master"
     }
 }
 ```
 Install it by running the command :
 
 ```
-php composer.phar update lexik/ws-colissimo
+php composer.phar update NyKo24/ws-colissimo
 ```
 
 ## Usage
@@ -38,7 +41,3 @@ php composer.phar update lexik/ws-colissimo
 ```
 # see example in sample/index.php
 ```
-
-### Symfony2
-
-Install the [LexikColissimoBundle](https://github.com/lexik/LexikColissimoBundle).
