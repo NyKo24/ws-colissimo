@@ -25,7 +25,13 @@ Add the library to your `composer.json` :
 {
     "require": {
         "NyKo24/ws-colissimo": "dev-master"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:NyKo24/ws-colissimo.git"
+        }
+    ]
 }
 ```
 Install it by running the command :
